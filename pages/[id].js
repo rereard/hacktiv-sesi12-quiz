@@ -1,4 +1,3 @@
-import { useRouter } from 'next/router'
 export default function PostDetail(props) {
     return (
         <div className="flex flex-col items-center mt-10">
