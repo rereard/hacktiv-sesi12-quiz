@@ -11,7 +11,6 @@ export default function PostDetail(props) {
             <div className="md:w-2/4 w-9/12 flex flex-col flex-wrap p-3 mb-5">
                 <h5 className="mb-3 text-xl"><b>Comments:</b></h5>
                 {props.comments.map((comment) => (
-                    // <CommentBox key={comment.id} name={comment.name} email={comment.email} body={comment.body}/>
                     <div key={comment.id} className="border-b-2 mb-3">
                         <h4 className="font-medium">{comment.name}</h4>
                         <h4 className="mb-2 text-slate-400">{comment.email}</h4>
